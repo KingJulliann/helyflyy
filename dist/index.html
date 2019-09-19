@@ -16,6 +16,9 @@
 	            $(".show-testimonials").click(function(){
 			    $(".hide").toggle();
 	            });
+	            $(".show-btn").click(function(){
+			    $(".hide-img").toggle();
+	            });
 	          });
 			</script>
 	<title>HomePage</title></head>
@@ -27,7 +30,7 @@
 				<div class="header">
 					<div class="header__logo">
 						<a href="#">
-							<img src="assets/img/Vector.png" alt="">
+							<img src="assets/img/Vector.png" alt="logo">
 						</a>
 					</div>
 					<div class="header__tel">
@@ -78,41 +81,73 @@
 							</div>
 						</div>
 						<div class="offer__img">
-							<img src="assets/img/couple.jpg" alt="">
+							<img src="assets/img/couple.jpg" alt="img couple">
 						</div>
 					</div>
 					<div class="offer__photos">
 						<h3 class="offer__photos-title">Фотографии пакета:</h3>
 						<p class="imglist" style="max-width: 1116px;">
 							<a href="#" data-fancybox="images" data-caption="Backpackers following a dirt trail">
-								<img src="assets/img/girl.jpg">
+								<img src="assets/img/girl.jpg" alt="girl">
 							</a>
 	
-							<a href="assets/img/strips.jpg" data-fancybox="images" data-caption="Mallorca, Llubí, Spain">
-								<img src="assets/img/strips.jpg">
+							<a href="assets/img/strips.jpg" data-fancybox="images" data-caption="girl">
+								<img src="assets/img/strips.jpg" alt="girl">
 							</a>
 							  
-							<a href="assets/img/couple-1.jpg" data-fancybox="images" data-caption="Danish summer">
-								<img src="assets/img/couple-1.jpg">
+							<a href="assets/img/couple-1.jpg" data-fancybox="images" data-caption="girl">
+								<img src="assets/img/couple-1.jpg" alt="girl">
 							</a>
 	
-							<a href="assets/img/heligirl.jpg" data-fancybox="images" data-caption="Sunrise above a sandy beach">
-								<img src="assets/img/heligirl.jpg">
+							<a href="assets/img/heligirl.jpg" data-fancybox="images" data-caption="girl">
+								<img src="assets/img/heligirl.jpg" alt="girl">
 							</a>
-							<a href="assets/img/couple-1.jpg" data-fancybox="images" data-caption="Woman on a slope by the shore">
-								<img src="assets/img/couple-1.jpg">
-							</a>
-	
-							<a href="assets/img/heligirl.jpg" data-fancybox="images" data-caption="Mountain hiking sunset">
-								<img src="assets/img/heligirl.jpg">
+							<a href="assets/img/couple-1.jpg" data-fancybox="images" data-caption="girl">
+								<img src="assets/img/couple-1.jpg" alt="girl">
 							</a>
 	
-							<a href="assets/img/strips.jpg" data-fancybox="images" data-caption="Sunset Picnic">
-								<img src="assets/img/strips.jpg">
+							<a href="assets/img/heligirl.jpg" data-fancybox="images" data-caption="girl">
+								<img src="assets/img/heligirl.jpg" alt="girl">
+							</a>
+	
+							<a href="assets/img/strips.jpg" data-fancybox="images" data-caption="girl">
+								<img src="assets/img/strips.jpg" alt="girl">
 							</a>
 							  
-							<a href="assets/img/couple-1.jpg" data-fancybox="images" data-caption="On them Indiana Nights">
-								<img src="assets/img/couple-1.jpg">
+							<a href="assets/img/couple-1.jpg" data-fancybox="images" data-caption="girl">
+								<img src="assets/img/couple-1.jpg" alt="girl">
+							</a>
+						</p>
+						<p class="imglist hide-img" style="max-width: 1116px; display: none;">
+							<a href="#" data-fancybox="images" data-caption="Backpackers following a dirt trail">
+								<img src="assets/img/girl.jpg" alt="girl">
+							</a>
+	
+							<a href="assets/img/strips.jpg" data-fancybox="images" data-caption="girl">
+								<img src="assets/img/strips.jpg" alt="girl">
+							</a>
+							  
+							<a href="assets/img/couple-1.jpg" data-fancybox="images" data-caption="girl">
+								<img src="assets/img/couple-1.jpg" alt="girl">
+							</a>
+	
+							<a href="assets/img/heligirl.jpg" data-fancybox="images" data-caption="girl">
+								<img src="assets/img/heligirl.jpg" alt="girl">
+							</a>
+							<a href="assets/img/couple-1.jpg" data-fancybox="images" data-caption="girl">
+								<img src="assets/img/couple-1.jpg" alt="girl">
+							</a>
+	
+							<a href="assets/img/heligirl.jpg" data-fancybox="images" data-caption="girl">
+								<img src="assets/img/heligirl.jpg" alt="girl">
+							</a>
+	
+							<a href="assets/img/strips.jpg" data-fancybox="images" data-caption="girl">
+								<img src="assets/img/strips.jpg" alt="girl">
+							</a>
+							  
+							<a href="assets/img/couple-1.jpg" data-fancybox="images" data-caption="girl">
+								<img src="assets/img/couple-1.jpg" alt="girl">
 							</a>
 						</p>
 						<button class="show-btn">Показать все фото</button> 
@@ -142,7 +177,7 @@
 							<button class="about-add__btn">Читать еще</button> 
 						</div>
 						<div class="author">
-							<img src="assets/img/Ellipse.jpg" alt="">
+							<img src="assets/img/Ellipse.jpg" alt="girl">
 							<p class="author__name">Марина Иванова</p>
 							<p class="author__position">Фотограф</p>
 							<button class="author__show">Показать больше <br> информации о фотографе</button> 
@@ -224,7 +259,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name valery">Валерия Антонова</p>
 							<p class="testimonials_position">Арт-директор</p>
-							<span><p>Супер! Я бы заказала съемку снова!</p></span>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Хотим выразить огромную благодарность вашей компании! Получили море ощущений, все прошло просто замечательно. Фотки получились великолепные, отдельное спасибо фотографу!
 							</p>
@@ -234,7 +269,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name vitaliy">Виталий Петров</p>
 							<p class="testimonials_position">Фотограф</p>
-							<p><span>Супер! Я бы заказала съемку снова!</span></p>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Восторг! :) Очень понравилось :) Захватили последний теплый, солнечный октябрьский день :) Впечатлило всё: сам вертолет, взлет, полёт, приземление. Организация полёта отличная. Спасибо!
 							</p>
@@ -244,7 +279,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name jim">Джим Керри</p>
 							<p class="testimonials_position">Арт-директор</p>
-							<span><p>Супер! Я бы заказала съемку снова!</p></span>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Круто-круто-круто!!! Отмечали мой ДэРэ. Отлично провели время!!! Кстати закуски были вкусными и сытными))Мы с собой ничего не брали. Сами много фоткались,поэтому воспоминания обалденные!!!)) А еще нам всем напечатали по сертификату воздухоплавателя, правда некоторые ленятся за ним съездить))) Но все равно приятно. Короче, Презентстар – проверено. Оценка: пять!
 							</p>
@@ -252,11 +287,11 @@
 							<hr>
 						</div>	
 					</div>
-					<div class="testimonials__inner hide">
+					<div class="testimonials__inner hide" style="display: none;">
 						<div class="testimonials__item">
 							<p class="testimonials_name valery">Валерия Антонова</p>
 							<p class="testimonials_position">Арт-директор</p>
-							<span><p>Супер! Я бы заказала съемку снова!</p></span>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Хотим выразить огромную благодарность вашей компании! Получили море ощущений, все прошло просто замечательно. Фотки получились великолепные, отдельное спасибо фотографу!
 							</p>
@@ -266,7 +301,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name vitaliy">Виталий Петров</p>
 							<p class="testimonials_position">Фотограф</p>
-							<p><span>Супер! Я бы заказала съемку снова!</span></p>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Восторг! :) Очень понравилось :) Захватили последний теплый, солнечный октябрьский день :) Впечатлило всё: сам вертолет, взлет, полёт, приземление. Организация полёта отличная. Спасибо!
 							</p>
@@ -276,7 +311,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name jim">Джим Керри</p>
 							<p class="testimonials_position">Арт-директор</p>
-							<span><p>Супер! Я бы заказала съемку снова!</p></span>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Круто-круто-круто!!! Отмечали мой ДэРэ. Отлично провели время!!! Кстати закуски были вкусными и сытными))Мы с собой ничего не брали. Сами много фоткались,поэтому воспоминания обалденные!!!)) А еще нам всем напечатали по сертификату воздухоплавателя, правда некоторые ленятся за ним съездить))) Но все равно приятно. Короче, Презентстар – проверено. Оценка: пять!
 							</p>
@@ -286,7 +321,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name valery">Валерия Антонова</p>
 							<p class="testimonials_position">Арт-директор</p>
-							<span><p>Супер! Я бы заказала съемку снова!</p></span>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Хотим выразить огромную благодарность вашей компании! Получили море ощущений, все прошло просто замечательно. Фотки получились великолепные, отдельное спасибо фотографу!
 							</p>
@@ -296,7 +331,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name vitaliy">Виталий Петров</p>
 							<p class="testimonials_position">Фотограф</p>
-							<p><span>Супер! Я бы заказала съемку снова!</span></p>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Восторг! :) Очень понравилось :) Захватили последний теплый, солнечный октябрьский день :) Впечатлило всё: сам вертолет, взлет, полёт, приземление. Организация полёта отличная. Спасибо!
 							</p>
@@ -306,7 +341,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name jim">Джим Керри</p>
 							<p class="testimonials_position">Арт-директор</p>
-							<span><p>Супер! Я бы заказала съемку снова!</p></span>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Круто-круто-круто!!! Отмечали мой ДэРэ. Отлично провели время!!! Кстати закуски были вкусными и сытными))Мы с собой ничего не брали. Сами много фоткались,поэтому воспоминания обалденные!!!)) А еще нам всем напечатали по сертификату воздухоплавателя, правда некоторые ленятся за ним съездить))) Но все равно приятно. Короче, Презентстар – проверено. Оценка: пять!
 							</p>
@@ -316,7 +351,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name valery">Валерия Антонова</p>
 							<p class="testimonials_position">Арт-директор</p>
-							<span><p>Супер! Я бы заказала съемку снова!</p></span>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Хотим выразить огромную благодарность вашей компании! Получили море ощущений, все прошло просто замечательно. Фотки получились великолепные, отдельное спасибо фотографу!
 							</p>
@@ -326,7 +361,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name vitaliy">Виталий Петров</p>
 							<p class="testimonials_position">Фотограф</p>
-							<p><span>Супер! Я бы заказала съемку снова!</span></p>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Восторг! :) Очень понравилось :) Захватили последний теплый, солнечный октябрьский день :) Впечатлило всё: сам вертолет, взлет, полёт, приземление. Организация полёта отличная. Спасибо!
 							</p>
@@ -336,7 +371,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name jim">Джим Керри</p>
 							<p class="testimonials_position">Арт-директор</p>
-							<span><p>Супер! Я бы заказала съемку снова!</p></span>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Круто-круто-круто!!! Отмечали мой ДэРэ. Отлично провели время!!! Кстати закуски были вкусными и сытными))Мы с собой ничего не брали. Сами много фоткались,поэтому воспоминания обалденные!!!)) А еще нам всем напечатали по сертификату воздухоплавателя, правда некоторые ленятся за ним съездить))) Но все равно приятно. Короче, Презентстар – проверено. Оценка: пять!
 							</p>
@@ -346,7 +381,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name valery">Валерия Антонова</p>
 							<p class="testimonials_position">Арт-директор</p>
-							<span><p>Супер! Я бы заказала съемку снова!</p></span>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Хотим выразить огромную благодарность вашей компании! Получили море ощущений, все прошло просто замечательно. Фотки получились великолепные, отдельное спасибо фотографу!
 							</p>
@@ -356,7 +391,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name vitaliy">Виталий Петров</p>
 							<p class="testimonials_position">Фотограф</p>
-							<p><span>Супер! Я бы заказала съемку снова!</span></p>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Восторг! :) Очень понравилось :) Захватили последний теплый, солнечный октябрьский день :) Впечатлило всё: сам вертолет, взлет, полёт, приземление. Организация полёта отличная. Спасибо!
 							</p>
@@ -366,7 +401,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name jim">Джим Керри</p>
 							<p class="testimonials_position">Арт-директор</p>
-							<span><p>Супер! Я бы заказала съемку снова!</p></span>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Круто-круто-круто!!! Отмечали мой ДэРэ. Отлично провели время!!! Кстати закуски были вкусными и сытными))Мы с собой ничего не брали. Сами много фоткались,поэтому воспоминания обалденные!!!)) А еще нам всем напечатали по сертификату воздухоплавателя, правда некоторые ленятся за ним съездить))) Но все равно приятно. Короче, Презентстар – проверено. Оценка: пять!
 							</p>
@@ -376,7 +411,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name valery">Валерия Антонова</p>
 							<p class="testimonials_position">Арт-директор</p>
-							<span><p>Супер! Я бы заказала съемку снова!</p></span>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Хотим выразить огромную благодарность вашей компании! Получили море ощущений, все прошло просто замечательно. Фотки получились великолепные, отдельное спасибо фотографу!
 							</p>
@@ -386,7 +421,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name vitaliy">Виталий Петров</p>
 							<p class="testimonials_position">Фотограф</p>
-							<p><span>Супер! Я бы заказала съемку снова!</span></p>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Восторг! :) Очень понравилось :) Захватили последний теплый, солнечный октябрьский день :) Впечатлило всё: сам вертолет, взлет, полёт, приземление. Организация полёта отличная. Спасибо!
 							</p>
@@ -396,7 +431,7 @@
 						<div class="testimonials__item">
 							<p class="testimonials_name jim">Джим Керри</p>
 							<p class="testimonials_position">Арт-директор</p>
-							<span><p>Супер! Я бы заказала съемку снова!</p></span>
+							<span>Супер! Я бы заказала съемку снова!</span>
 							<p class="testimonials__text">
 								Круто-круто-круто!!! Отмечали мой ДэРэ. Отлично провели время!!! Кстати закуски были вкусными и сытными))Мы с собой ничего не брали. Сами много фоткались,поэтому воспоминания обалденные!!!)) А еще нам всем напечатали по сертификату воздухоплавателя, правда некоторые ленятся за ним съездить))) Но все равно приятно. Короче, Презентстар – проверено. Оценка: пять!
 							</p>
@@ -415,24 +450,24 @@
 				<div class="footer">
 					<div class="footer__logo">
 						<a href="#">
-							<img src="assets/img/Vector.png" alt="">
+							<img src="assets/img/Vector.png" alt="logo">
 						</a>
 					</div>
 					<div class="footer__contacts">
 						<div class="soctials">
 							<a href="vk.com" target="_blank">
-								<img src="assets/img/vk.svg" alt="">
+								<img src="assets/img/vk.svg" alt="vk">
 							</a>
 							<a href="facebook.com" target="_blank">
-								<img src="assets/img/Facebook.svg" alt="">
+								<img src="assets/img/Facebook.svg" alt="fb">
 							</a>
 							<a href="instragram.com" target="_blank">
-								<img src="assets/img/Instragram.svg" alt="">
+								<img src="assets/img/Instragram.svg" alt="insta">
 							</a>
 						</div>
 						<div class="language">
 							<form action="">
-								<select name="language" id="" class="language__select">
+								<select name="language" class="language__select">
 									<option value="RU">RU</option>
 									<option value="EN">EN</option>
 								</select>
@@ -448,10 +483,10 @@
 				<div class="footer__block">
 					<div class="payment">
 						<a href="" target="_blank">
-							<img src="assets/img/MC.svg" alt="">
+							<img src="assets/img/MC.svg" alt="mc">
 						</a>
 						<a href="">
-							<img src="assets/img/VISA.svg" alt="">
+							<img src="assets/img/VISA.svg" alt="visa">
 						</a>
 					</div>
 					<div class="footer__info">
@@ -462,6 +497,5 @@
 			</div>
 		</footer>
 	
-		</script>
 </body>
 </html>
