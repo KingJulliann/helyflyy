@@ -1,0 +1,91 @@
+.testimonials__title,
+.testimonials_name,
+.testimonials_position,
+.testimonials__item span,
+.testimonials__text,
+.testimonials__date {
+	font-family: $primary-font;
+	font-style: normal;
+	color: $primary-color;
+}
+
+
+.testimonials__inner {
+	max-width: 510px;
+}
+.testimonials__item {
+	padding-left: 121px;
+	position: relative;
+	margin-bottom: 47px;
+}
+
+.valery::before,
+.vitaliy::before,
+.jim::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	top: 0;
+	left: 0;
+}
+
+.valery::before {
+	background: url("../img/valery.jpg") no-repeat center / contain;
+	width: 101px;
+	height: 101px;
+}
+
+.vitaliy::before {
+	background: url("../img/vitaliy.jpg") no-repeat center / contain;
+	width: 101px;
+	height: 101px;
+}
+
+.jim::before {
+	background: url("../img/jim.jpg") no-repeat center / contain;
+	width: 101px;
+	height: 101px;
+}
+
+.testimonials__title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 29px;
+	margin-bottom: 50px;
+}
+
+.testimonials_name {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.testimonials_position,
+.testimonials__item span,
+.testimonials__date {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.testimonials__item span,
+.testimonials__date {
+	color: #B3B3B3;
+}
+
+.testimonials__text {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.testimonials__date{
+	margin-bottom: 35px;
+}
+
+.show-testimonials {
+	border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,162 @@
+.offer {
+	margin-top: 70px;
+}
+
+.offer__block {
+	display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.offer__title,
+.offer__text,
+.offer__list-item,
+.rating,
+.offer__photos-title {
+	font-family: $primary-font;
+	font-style: normal;
+	color: $primary-color;
+}
+
+.offer__title {
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 49px;
+	max-width: 260px;
+	margin: 0;
+}
+
+.offer__text,
+.rating {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.offer__text {
+	max-width: 549px;
+	margin-top: 18px;
+}
+
+.offer__list {
+	padding: 0;
+}
+
+.offer__list-item {
+	list-style-type: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-left: 55px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+
+.rating__text {
+	margin: 0;
+	padding: 25px 0 25px 55px;
+	position: relative;
+
+}
+
+li.clock::before,
+li.photo::before,
+li.map-icon::before,
+li.speech::before,
+.rating__text::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	top: 0;
+	left: 0;
+}
+
+li.clock::before {
+	background: url("../img/clock.svg") no-repeat center / contain;
+	width: 37px;
+	height: 40px;
+}
+
+li.photo::before {
+	background: url("../img/photo.svg") no-repeat center / contain;
+	width: 28px;
+	height: 35px;
+}
+
+li.map-icon::before {
+	background: url("../img/map.svg") no-repeat center / contain;
+	width: 33px;
+	height: 33px;
+}
+
+li.speech::before {
+	background: url("../img/speech.svg") no-repeat center / contain;
+	width: 28px;
+	height: 31px;
+}
+
+.rating__text::before {
+	background: url("../img/rating.svg") no-repeat center / contain;
+	width: 35px;
+	height: 32px;	
+	top: 18px;
+}
+
+.rating hr {
+	border: 0.5px solid #C7C7C7;
+	max-width: 569px;
+}
+
+
+.offer__photos-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 29px;
+	margin-bottom: 37px;
+}
+
+.show-btn {
+	font-family: $primary-font;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 25px;
+	color: #5286EC;
+	position: relative;
+	display: block;
+	margin-bottom: 27px;
+	border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    margin:0 auto;
+}
+
+
+.show-btn::before,
+.show-btn::after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 6px;
+    height: 6px;
+    border-left: 1px solid #C7C7C7;
+    border-bottom: 1px solid #C7C7C7;
+    transform: rotate(315deg);
+}
+
+.show-btn::before {
+    top: 9px;
+    left: 185px;
+}
+
+.show-btn::after {
+    top: 9px;
+    right: 185px;;
+}
+
+.offer__photos > hr {
+	border: 0.5px solid #C7C7C7;
+}

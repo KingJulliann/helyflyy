@@ -1,0 +1,40 @@
+@import "vars";
+
+/* Default styles */
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #37373F;
+}
+
+hr {
+	border: 0.5px solid #C7C7C7;
+}
+
+.container {
+	max-width: 1122px;
+	margin: 0 auto;
+}
+
+/* Blocks */
+
+@import "blocks/header";
+@import "blocks/banner";
+@import "blocks/offer";
+@import "blocks/about";
+@import "blocks/order";
+@import "blocks/map";
+@import "blocks/testimonials";
+@import "blocks/footer";
+
+
+
+
+
+/* Vendor libs */

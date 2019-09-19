@@ -1,0 +1,71 @@
+.banner {
+	padding: 288px 0 260px;
+	background-image: url("../img/helimain.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	max-width: 100%;
+}
+
+.banner__title {
+	font-family: $primary-font;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 49px;
+	color: #FFFFFF;
+	max-width: 864px;
+
+	span {
+		color:  #FC9B09;
+	}
+}
+
+.message {
+	background: #fc9b09;
+    box-shadow: 0 4px 4px rgba(0,0,0,.1);
+    border-radius: 5px;
+    transform: matrix(1,0,0,1,0,0);
+    max-width: 224px;
+    height: 96px;
+    padding: 11px 29px 26px 22px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+
+
+	p {
+		font-family: Montserrat,sans-serif;
+	    font-style: normal;
+	    font-weight: 800;
+	    font-size: 35px;
+	    line-height: 100%;
+	    color: #fff;
+	    margin: 0;
+	}
+
+	p span {
+		font-weight: normal;
+		font-size: 20px;
+		position: absolute;
+	}
+}
+
+.banner__btn {
+	border: 3px solid #FFFFFF;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 70px rgba(255, 255, 255, 0.7);
+	border-radius: 3px;
+	padding: 24px 37px;
+	display: inline-block;
+}
+
+.btn {
+	font-family: $primary-font;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 24px 37px;
+}

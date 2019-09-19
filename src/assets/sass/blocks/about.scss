@@ -1,0 +1,127 @@
+.about-me,
+.about-add {
+	display: none;
+}
+
+
+.about {
+	margin-top: 37px;
+}
+
+.about__wrap {
+margin-bottom: 51px;
+}
+
+.about__block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about__title,
+.about-me__text,
+.author__name,
+.author__position,
+.author__show,
+.about-add__btn,
+.about-me,
+.about-me__btn,
+.about-add__text,
+.about-add {
+	color: $primary-color;
+	font-family: $primary-font;
+	font-style: normal;
+}
+
+.about__title {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.about-me__text,
+.about-me,
+.about-add__text {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	max-width: 584px;
+}
+
+.author {
+	text-align: center;
+	padding-right: 60px;
+	margin-right: 100px;
+	position: relative;
+	margin-top: 31px;
+}
+
+.author::after {
+	display: block;
+    position: absolute;
+    content: " ";
+    background: url(../img/heart.svg) no-repeat 50%/contain;
+    width: 27px;
+    height: 31px;
+    top: -20px;
+    right: 0;
+}
+
+
+.author__name {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+}
+
+.author__position,
+.author__show {
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	display: block;
+	border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.author__position {
+	font-weight: normal;
+}
+.author__show,
+.about-me__btn,
+.about-add__btn {
+	font-weight: 500;
+	color: #5286EC;
+}
+
+.about-me__btn,
+.about-add__btn {
+	font-size: 16px;
+	line-height: 23px;
+	position: relative;
+	padding-right: 15px;
+	border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.about-me__btn::after,
+.about-add__btn::after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 6px;
+    height: 6px;
+    border-left: 1px solid #C7C7C7;
+    border-bottom: 1px solid #C7C7C7;
+    transform: rotate(315deg);
+    top: 5px;
+    right: 0;
+}
+
+.about  hr {
+	border: 0.5px solid #C7C7C7;
+}
